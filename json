@@ -1,0 +1,54 @@
+login:
+buyer
+{
+    "username":"KomalDesai",
+    "password":"desai"
+}
+
+OR
+seller
+{
+    "username":"SavitaDesai",
+    "password":"desai"
+}
+
+deposit:
+{
+    "deposit":50
+}
+
+buy:
+{
+    "product_id":1,
+    "product_quantity":2
+
+}
+
+Products:
+POST:
+{
+"product_id":10,
+"amount_available" :25,
+"cost" : 20,
+"product_name": "item10",
+"seller_id": 1100
+}
+
+GET:
+{
+"product_id":10,
+"amount_available" :25,
+"cost" : 50,
+"product_name": "item10",
+"seller_id": 1100
+}
+
+DELETE:
+{
+"product_id":10,
+"amount_available" :25,
+"cost" : 50,
+"product_name": "item10",
+"seller_id": 1100
+}
+ 
